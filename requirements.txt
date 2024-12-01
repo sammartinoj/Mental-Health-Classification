@@ -1,0 +1,5 @@
+pip install spacy
+pip install pandas
+python3 -m spacy download en_core_web_sm
+
+# please update. will also add more when we get to fine-tuning stage 
