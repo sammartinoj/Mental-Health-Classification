@@ -1,13 +1,4 @@
 Counts for Anxiety-pos.csv:
-NOUN: 90396
-VERB: 83730
-ADJ: 39053
-ADV: 42891
-PRON: 92181
-PROPN: 8192
-AUX: 44746
-MD: 0
-Counts for Anxiety-pos.csv:
 PRON: 92181
 NOUN: 90396
 VERB: 83730
