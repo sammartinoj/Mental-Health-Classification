@@ -5,8 +5,7 @@ cat $file | sed -e '/^[[:space:]]*$/d'|tr -s ' '| tr -d '\r' |sed 's/--//g'|sed 
 
 tr -cd "A-Za-z0-9,\n\'\!\?\. " < temp-output | tr -s ' '|sed 's/Personality disorder/Personality-disorder/g' > cleaned-output
  
-cat cleaned-output | cut -f3 -d ','|sort|uniq -c > disorders
-cat cleaned-output | cut -f2 -d ',' > statements
+rm temp-output
 
 mkdir -p ./data
-mv temp-output cleaned-output disorders statements ./data
+mv cleaned-output ./data
