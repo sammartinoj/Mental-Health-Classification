@@ -3,4 +3,6 @@ pip install pandas
 pip install torch
 pip install datasets
 pip install transformers
+pip install scikit-learn
+pip install numpy
 # please update. will also add more when we get to fine-tuning stage 
