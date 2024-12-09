@@ -1,0 +1,22 @@
+Anxiety-pos.csv
+9789 it
+8324 of
+6364 that
+5889 in
+5663 have
+5406 is
+5203 but
+4962 this
+4866 me
+4853 for
+Bipolar-pos.csv
+7644 of
+7218 it
+5565 that
+5192 in
+5032 me
+4816 for
+4738 is
+4719 have
+4665 but
+4546 was
