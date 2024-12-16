@@ -1,0 +1,28 @@
+Anxiety.csv type/token ration is:
+0.0353282
+534418 tokens
+18880 types
+Bipolar.csv type/token ration is:
+0.0383114
+479231 tokens
+18360 types
+Depression.csv type/token ration is:
+0.0166408
+2581071 tokens
+42951 types
+Normal.csv type/token ration is:
+0.0831282
+279448 tokens
+23230 types
+Personality-disorder.csv type/token ration is:
+0.0495202
+186651 tokens
+9243 types
+Stress.csv type/token ration is:
+0.0445622
+290852 tokens
+12961 types
+Suicidal.csv type/token ration is:
+0.0205424
+1557607 tokens
+31997 types
