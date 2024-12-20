@@ -10,6 +10,7 @@ This project will use preprocessing to clean our data (lowercase, strip whitespa
 ### Data
 In the data folder, you will find cleaned-output, which is the data we used for all downstream tasks. The scripts used to create cleaned-output can be found in the folder called preprocessing. This folder contains scripts for both cleaning and creating the mini-csvs
 
+# Statistics
 In the stats folder, you will find a few scripts and a directory for calculating interesting statistics about the data. pos contains the following scripts and files:
 1) tagger.py, which tags the mini-csvs using thespacy tagger.
 2) pos-stats.sh, which generates POS tags for the CSVs.
