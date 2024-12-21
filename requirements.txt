@@ -6,4 +6,4 @@ pip install transformers
 pip install scikit-learn
 pip install numpy
 pip install accelerate>=0.26.0
-# please update. will also add more when we get to fine-tuning stage 
+pip install ipywidgets
