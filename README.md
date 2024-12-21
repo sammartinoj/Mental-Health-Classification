@@ -18,4 +18,17 @@ In the stats folder, you will find a few scripts and a directory for calculating
 4) type-token.sh, which generates type token ratios for each mini CSV.
 5) anygram directorys, which is contains all scripts for ngrams processing of each individual disorder files.
 
+## Replicating Results
+We make the process of replicating results relatively simple. If you want to replicate a result for a particular model, simply run one of the training scripts in the trainers directory. Your model will be saved to an output directory with the same name as the corresponding .py file.
+
+## Inferencing and Probing
+We've uploaded results for our two downsampled models. If you'd like to try inferencing, please paste the following into your command line:
+```python predictor.py --model downsampled (or disorder_only) --text "Sample text for prediction"```
+
+Keep in mind that the model was trained on lengthy symptomatic descriptions. Short descriptions are not likely to yield good results.
+
+## Exploratory
+We also streamline the process of experimenting with different datasets, models, and a few hyperparameters. Simply cd into the experimental folder, and put the appropriate arguments in the command line:
+
+``` python train_model.py --train_file <train_file> --val_file <val_file> --test_file <test_file> --model_name <model_name> --output_dir <output_dir> --num_epochs <num> --batch_size <num> --learning_rate <rate> ```
 
