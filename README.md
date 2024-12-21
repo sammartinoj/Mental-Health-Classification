@@ -22,9 +22,10 @@ In the stats folder, you will find a few scripts and a directory for calculating
 We make the process of replicating results relatively simple. If you want to replicate a result for a particular model, simply run one of the training scripts in the trainers directory. Your model will be saved to an output directory with the same name as the corresponding .py file.
 
 ## Inferencing and Probing
-We've uploaded results for our two downsampled models. If you'd like to try inferencing, please paste the following into your command line:
-```python predictor.py --model downsampled (or disorder_only) --text "Sample text for prediction"```
-
+We've uploaded our two downsampled models to huggingface. To inference with your own symptomatic description, run predictor.py in the command line as follows:
+```
+python predict.py --model "rachelhamelburg/downsampled_disorder_only" or "rachelhamelburg/downsampled_model --text "Your symptoms"
+```
 Keep in mind that the model was trained on lengthy symptomatic descriptions. Short descriptions are not likely to yield good results.
 
 ## Exploratory
