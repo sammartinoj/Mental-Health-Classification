@@ -1,7 +1,7 @@
 # text_tools_project
 
-## Topic
-**Generalized Mental Health Classifier**
+## **Generalized Mental Health Classifier**
+
 This repository explores the challenges of building a generalized mental health classifier using anonymous, user-generated text data from various online platforms. Mental health classification is inherently complex due to overlapping symptoms, ambiguous language, and low signal-to-noise ratio in textual descriptions. By leveraging these unstructured data sources, our work sheds light on:
 
 The nuanced ways patients describe symptoms.
