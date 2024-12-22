@@ -12,7 +12,7 @@ This project contributes to advancing the understanding of mental health dynamic
 ## Navigating the Repo
 
 ### Data
-In the data folder, you will find cleaned-output, which is the data we used for all downstream tasks. The scripts used to create cleaned-output can be found in the folder called preprocessing. This folder contains scripts for both cleaning and creating the mini-csvs
+In the data folder, you will find cleaned-output, which is the data we used for all downstream tasks. You will also find a folder that contains all of the train-val-test splits for our experiments, as well as an .ipynb file to create unique data splits. The scripts used to create cleaned-output can be found in the folder called preprocessing. This folder contains scripts for both cleaning and creating the mini-csvs
 
 ### Statistics
 In the stats folder, you will find a few scripts and a directory for calculating interesting statistics about the data. pos contains the following scripts and files:
