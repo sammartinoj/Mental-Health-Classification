@@ -46,7 +46,7 @@ def main():
     predicted_label = label_mapping.get(predicted_class, "Unknown")
 
     # Output results
-    print(f"\nInput text: {text}")
+    print(f"Input text: {text}")
     print(f"Predicted class: {predicted_class} ({predicted_label})")
 
 if __name__ == "__main__":
